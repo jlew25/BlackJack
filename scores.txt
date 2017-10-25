@@ -1,0 +1,5 @@
+Player: [name=Justin, money=0, handCount=1]
+Player: [name=Justin, money=0, handCount=4]
+Player: [name=Justin, money=0, handCount=3]
+Player: [name=Justin, money=0, handCount=2]
+Player: [name=Justin, money=0, handCount=2]
