@@ -1,13 +1,14 @@
 package BlackJackPack;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class Hand {
 	
-	ArrayList <Card>cards;
+	LinkedList <Card>cards;
 	
 	public Hand(){
-		cards = new ArrayList<Card>();
+		cards = new LinkedList<Card>();
 	}
 	
 	//Gets the length of the ArrayList
@@ -40,14 +41,6 @@ public class Hand {
 		cards.clear();
 		
 	}
-	
-	public void dosomething(){
-		System.out.println("Something");
-	}
-
-	
-	
-	
 	
 	
 
