@@ -40,6 +40,10 @@ public class Hand {
 		cards.clear();
 		
 	}
+	
+	public void dosomething(){
+		System.out.println("Something");
+	}
 
 	
 	
