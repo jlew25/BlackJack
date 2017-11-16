@@ -1,6 +1,5 @@
 package BlackJackPack;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 
 public class Hand {
@@ -22,7 +21,7 @@ public class Hand {
 	}
 	
 	//Returns the arrayList for scoring purposes
-	public ArrayList<Card> getList(){
+	public LinkedList<Card> getList(){
 		return cards;
 		
 	}
