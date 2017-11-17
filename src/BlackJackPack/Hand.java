@@ -1,6 +1,6 @@
 package BlackJackPack;
 
-import java.util.LinkedList;
+//import java.util.LinkedList;
 
 public class Hand {
 	
@@ -12,7 +12,7 @@ public class Hand {
 	
 	//Gets the length of the ArrayList
 	public int getLength(){
-		return cards.size();
+		return cards.getSize();
 	}
 	
 	//Returns the card at specified index
