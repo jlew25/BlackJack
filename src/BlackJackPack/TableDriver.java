@@ -196,7 +196,7 @@ public class TableDriver {
 				||(game.getDealer().getScore()<21 && game.getDealer().getScore() > game.getPlayer().getScore())){
 			
 			//Display alert box
-			WinLossBox.display("You Lost. Dealer Score: "+game.getDealer().getScore()+" "+game.getPlayer().getName()+
+			WinLossBox.display("You Lost. TEST Dealer Score: "+game.getDealer().getScore()+" "+game.getPlayer().getName()+
 					"'s Score: "+game.getPlayer().getScore());
 			
 			//Incrementing the hand count
@@ -206,7 +206,7 @@ public class TableDriver {
 			game.blackJack();
 			
 			//Display alert box
-			WinLossBox.display("BLACKJACK!!!  Dealer Score: "+game.getDealer().getScore()+" "+game.getPlayer().getName()+
+			WinLossBox.display("BLACKJACK!!! TEST Dealer Score: "+game.getDealer().getScore()+" "+game.getPlayer().getName()+
 					"'s Score: "+game.getPlayer().getScore());
 			
 			//Incrementing the hand count
@@ -215,7 +215,7 @@ public class TableDriver {
 		}else if(game.getDealer().getScore()>21||game.getPlayer().getScore()>game.getDealer().getScore()){
 			game.regWin();
 			//Display alert box
-			WinLossBox.display("You Won!! Dealer Score: "+game.getDealer().getScore()+" "+game.getPlayer().getName()+
+			WinLossBox.display("You Won!! TEST Dealer Score: "+game.getDealer().getScore()+" "+game.getPlayer().getName()+
 					"'s Score: "+game.getPlayer().getScore());
 			
 			//Incrementing the hand count

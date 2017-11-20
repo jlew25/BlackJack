@@ -48,7 +48,7 @@ public class Driver extends Application{
 		 startlb= new Label("Welcome to Black Jack!");
 		
 
-		 startB = new Button("Click here to Start");
+		 startB = new Button("TEST");
 		 startB.getStyleClass().add("round-red"); 
 		 
 		 helpB = new Button("Help");
@@ -94,7 +94,7 @@ public class Driver extends Application{
 		 //*********************************************************************************************
 		 
 		global.setScene(introScene);
-		global.setTitle("Justin's Black Jack Program");
+		global.setTitle("Justin's Black Jack Program TEST");
 		global.setResizable(false);
 		global.show();
 	}
