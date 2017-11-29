@@ -45,7 +45,7 @@ public class Driver extends Application{
 		
 		VBox centBox = new VBox(10);
 		//First scene set-up 
-		 startlb= new Label("Welcome to Black Jack!");
+		 startlb= new Label("Welcome to Black Jack! linkedlist");
 		
 
 		 startB = new Button("TEST");

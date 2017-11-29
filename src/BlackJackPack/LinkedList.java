@@ -104,9 +104,9 @@ public class LinkedList<E> {
     }
 
 	public void clear() {
-		head=null;
+		//head=null;
 		//tail=null;
-		size=0;
+		//size=0;
 	}
 		
 	}
