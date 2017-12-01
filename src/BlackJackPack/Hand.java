@@ -8,17 +8,17 @@ public class Hand {
 		cards = new ArrayDeque<Card>();
 	}
 	
-	//Gets the length of the ArrayList
+	// Gets the length of the ArrayList
 	public int getLength(){
 		return cards.size();
 	}
 	
-	//Returns the card at specified index
+	// Returns the card at specified index
 	public Card getCard(){
 		return  cards.pop();
 	}
 	
-	//Returns the arrayList for scoring purposes
+	// Returns the arrayList for scoring purposes
 	public Deque<Card> getHand(){
 		return cards;
 		
