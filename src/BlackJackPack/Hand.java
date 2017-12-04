@@ -1,37 +1,35 @@
 package BlackJackPack;
-
-import java.util.ArrayList;
-
+import java.util.*;
 public class Hand {
 	
-	ArrayList <Card>cards;
+	Deque<Card> cards = new ArrayDeque<Card>();
 	
 	public Hand(){
-		cards = new ArrayList<Card>();
+		cards = new ArrayDeque<Card>();
 	}
 	
-	//Gets the length of the ArrayList
+	// Gets the length of the ArrayList
 	public int getLength(){
 		return cards.size();
 	}
 	
-	//Returns the card at specified index
-	public Card getCard(int x){
-		return  cards.get(x);
+	// Returns the card at specified index
+	public Card getCard(){
+		return  cards.pop();
 	}
 	
-	//Returns the arrayList for scoring purposes
-	public ArrayList<Card> getList(){
+	// Returns the arrayList for scoring purposes
+	public Deque<Card> getHand(){
 		return cards;
 		
 	}
 
 	public void addCard(boolean faceDown) {
 		if(faceDown==true){
-			cards.add(new Card(true));
+			cards.push(new Card(true));
 		}
 		else{
-			cards.add(new Card(false));
+			cards.push(new Card(false));
 		}
 		
 	}
@@ -39,12 +37,6 @@ public class Hand {
 	public void clearHand() {
 		cards.clear();
 		
-	}
-
-	
-	
-	
-	
-	
+	}	
 
 }
